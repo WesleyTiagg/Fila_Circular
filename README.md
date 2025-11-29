@@ -25,6 +25,10 @@ Este repositório contém a implementação de uma Fila Circular, um tipo abstra
 
 🧩 Mostrar espaço disponível na fila
 
+🧪 Exemplos de Testes
+
+````
+
 import { FilaCircular } from "./src/FilaCircular";
 
 const fila = new FilaCircular(5);
@@ -40,4 +44,6 @@ console.log(fila.desenfileirar()); // 10
 console.log(fila.primeiro()); // 20
 
 fila.exibir();
+
+````
 
